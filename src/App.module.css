@@ -9,6 +9,7 @@
   min-width: 800px;
   margin-top: 5rem;
   padding: 1rem;
+
 }
 
 .header {
@@ -31,12 +32,15 @@
   padding: 2px 16px;
   text-align: left;
   background: gray;
+  &:hover {
+    background: rgb(78, 177, 78);
+  }
 }
 
 .selected {
   padding: 2px 16px;
   text-align: left;
-  background: rgb(56, 151, 56);
+  background: rgb(78, 177, 78);
 }
 
 .buttonsContainer {

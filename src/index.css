@@ -9,9 +9,11 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+
+  /* background colors */
+  --bg-primary: #f0fdf4; 
+  --bg-table: #ffffff; 
+  --bg-header: #ecfdf5;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -57,7 +59,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  outline:  2px solid #f264ff;
+  outline: 2px solid #f264ff;
 }
 button:focus,
 button:focus-visible {
